@@ -1,2 +1,2 @@
-census_data_uri: http://censusdata.ire.org/SS/all_LLL_in_SS.TT.csv
-census_data_config: census_data.json
+census_data_url: http://censusdata.ire.org/SS/all_LLL_in_SS.TT.csv
+download_dir: /users/nslater/data/census

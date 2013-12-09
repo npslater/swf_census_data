@@ -1,0 +1,5 @@
+require 'json'
+require 'net/http'
+require 'uri'
+require 'yaml'
+require_relative '../bin/process_census_data'
