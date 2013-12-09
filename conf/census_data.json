@@ -1,0 +1,1545 @@
+{
+    "data": {
+        "states": [
+            {
+                "fips": "01",
+                "name": "Alabama"
+            },
+            {
+                "fips": "02",
+                "name": "Alaska"
+            },
+            {
+                "fips": "04",
+                "name": "Arizona"
+            },
+            {
+                "fips": "05",
+                "name": "Arkansas"
+            },
+            {
+                "fips": "06",
+                "name": "California"
+            },
+            {
+                "fips": "08",
+                "name": "Colorado"
+            },
+            {
+                "fips": "09",
+                "name": "Connecticut"
+            },
+            {
+                "fips": "10",
+                "name": "Delaware"
+            },
+            {
+                "fips": "11",
+                "name": "District of Columbia"
+            },
+            {
+                "fips": "12",
+                "name": "Florida"
+            },
+            {
+                "fips": "13",
+                "name": "Georgia"
+            },
+            {
+                "fips": "15",
+                "name": "Hawaii"
+            },
+            {
+                "fips": "16",
+                "name": "Idaho"
+            },
+            {
+                "fips": "17",
+                "name": "Illinois"
+            },
+            {
+                "fips": "18",
+                "name": "Indiana"
+            },
+            {
+                "fips": "19",
+                "name": "Iowa"
+            },
+            {
+                "fips": "20",
+                "name": "Kansas"
+            },
+            {
+                "fips": "21",
+                "name": "Kentucky"
+            },
+            {
+                "fips": "22",
+                "name": "Louisiana"
+            },
+            {
+                "fips": "23",
+                "name": "Maine"
+            },
+            {
+                "fips": "24",
+                "name": "Maryland"
+            },
+            {
+                "fips": "25",
+                "name": "Massachusetts"
+            },
+            {
+                "fips": "26",
+                "name": "Michigan"
+            },
+            {
+                "fips": "27",
+                "name": "Minnesota"
+            },
+            {
+                "fips": "28",
+                "name": "Mississippi"
+            },
+            {
+                "fips": "29",
+                "name": "Missouri"
+            },
+            {
+                "fips": "30",
+                "name": "Montana"
+            },
+            {
+                "fips": "31",
+                "name": "Nebraska"
+            },
+            {
+                "fips": "32",
+                "name": "Nevada"
+            },
+            {
+                "fips": "33",
+                "name": "New Hampshire"
+            },
+            {
+                "fips": "34",
+                "name": "New Jersey"
+            },
+            {
+                "fips": "35",
+                "name": "New Mexico"
+            },
+            {
+                "fips": "36",
+                "name": "New York"
+            },
+            {
+                "fips": "37",
+                "name": "North Carolina"
+            },
+            {
+                "fips": "38",
+                "name": "North Dakota"
+            },
+            {
+                "fips": "39",
+                "name": "Ohio"
+            },
+            {
+                "fips": "40",
+                "name": "Oklahoma"
+            },
+            {
+                "fips": "41",
+                "name": "Oregon"
+            },
+            {
+                "fips": "42",
+                "name": "Pennsylvania"
+            },
+            {
+                "fips": "72",
+                "name": "Puerto Rico"
+            },
+            {
+                "fips": "44",
+                "name": "Rhode Island"
+            },
+            {
+                "fips": "45",
+                "name": "South Carolina"
+            },
+            {
+                "fips": "46",
+                "name": "South Dakota"
+            },
+            {
+                "fips": "47",
+                "name": "Tennessee"
+            },
+            {
+                "fips": "48",
+                "name": "Texas"
+            },
+            {
+                "fips": "49",
+                "name": "Utah"
+            },
+            {
+                "fips": "50",
+                "name": "Vermont"
+            },
+            {
+                "fips": "51",
+                "name": "Virginia"
+            },
+            {
+                "fips": "53",
+                "name": "Washington"
+            },
+            {
+                "fips": "54",
+                "name": "West Virginia"
+            },
+            {
+                "fips": "55",
+                "name": "Wisconsin"
+            },
+            {
+                "fips": "56",
+                "name": "Wyoming"
+            }
+        ],
+        "summaryCode": {
+            "code": "160",
+            "description": "Place"
+        },
+        "tables": [
+            {
+                "code": "P1",
+                "description": "P1. TOTAL POPULATION"
+            },
+            {
+                "code": "P2",
+                "description": "P2. URBAN AND RURAL"
+            },
+            {
+                "code": "P3",
+                "description": "P3. RACE"
+            },
+            {
+                "code": "P4",
+                "description": "P4. HISPANIC OR LATINO ORIGIN"
+            },
+            {
+                "code": "P5",
+                "description": "P5. HISPANIC OR LATINO ORIGIN BY RACE"
+            },
+            {
+                "code": "P6",
+                "description": "P6. RACE (TOTAL RACES TALLIED)"
+            },
+            {
+                "code": "P7",
+                "description": "P7. HISPANIC OR LATINO ORIGIN BY RACE (TOTAL RACES TALLIED)"
+            },
+            {
+                "code": "P8",
+                "description": "P8. RACE"
+            },
+            {
+                "code": "P9",
+                "description": "P9. HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE"
+            },
+            {
+                "code": "P10",
+                "description": "P10. RACE FOR THE POPULATION 18 YEARS AND OVER"
+            },
+            {
+                "code": "P11",
+                "description": "P11. HISPANIC OR LATINO, AND NOT HISPANIC OR LATINO BY RACE FOR THE POPULATION 18 YEARS AND OVER"
+            },
+            {
+                "code": "P12",
+                "description": "P12. SEX BY AGE"
+            },
+            {
+                "code": "P12A",
+                "description": "P12A. SEX BY AGE (WHITE ALONE)"
+            },
+            {
+                "code": "P12B",
+                "description": "P12B. SEX BY AGE (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "P12C",
+                "description": "P12C. SEX BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "P12D",
+                "description": "P12D. SEX BY AGE (ASIAN ALONE)"
+            },
+            {
+                "code": "P12E",
+                "description": "P12E. SEX BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "P12F",
+                "description": "P12F. SEX BY AGE (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "P12G",
+                "description": "P12G. SEX BY AGE (TWO OR MORE RACES)"
+            },
+            {
+                "code": "P12H",
+                "description": "P12H. SEX BY AGE (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P12I",
+                "description": "P12I. SEX BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P13",
+                "description": "P13. MEDIAN AGE BY SEX"
+            },
+            {
+                "code": "P13A",
+                "description": "P13A. MEDIAN AGE BY SEX (WHITE ALONE)"
+            },
+            {
+                "code": "P13B",
+                "description": "P13B. MEDIAN AGE BY SEX (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "P13C",
+                "description": "P13C. MEDIAN AGE BY SEX (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "P13D",
+                "description": "P13D. MEDIAN AGE BY SEX (ASIAN ALONE)"
+            },
+            {
+                "code": "P13E",
+                "description": "P13E. MEDIAN AGE BY SEX (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "P13F",
+                "description": "P13F. MEDIAN AGE BY SEX (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "P13G",
+                "description": "P13G. MEDIAN AGE BY SEX (TWO OR MORE RACES)"
+            },
+            {
+                "code": "P13H",
+                "description": "P13H. MEDIAN AGE BY SEX (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P13I",
+                "description": "P13I. MEDIAN AGE BY SEX (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P14",
+                "description": "P14. SEX BY AGE FOR THE POPULATION UNDER 20 YEARS"
+            },
+            {
+                "code": "P15",
+                "description": "P15. HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER"
+            },
+            {
+                "code": "P16",
+                "description": "P16. POPULATION IN HOUSEHOLDS BY AGE"
+            },
+            {
+                "code": "P16A",
+                "description": "P16A. POPULATION IN HOUSEHOLDS BY AGE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16B",
+                "description": "P16B. POPULATION IN HOUSEHOLDS BY AGE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16C",
+                "description": "P16C. POPULATION IN HOUSEHOLDS BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16D",
+                "description": "P16D. POPULATION IN HOUSEHOLDS BY AGE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16E",
+                "description": "P16E. POPULATION IN HOUSEHOLDS BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16F",
+                "description": "P16F. POPULATION IN HOUSEHOLDS BY AGE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P16G",
+                "description": "P16G. POPULATION IN HOUSEHOLDS BY AGE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P16H",
+                "description": "P16H. POPULATION IN HOUSEHOLDS BY AGE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P16I",
+                "description": "P16I. POPULATION IN HOUSEHOLDS BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P17",
+                "description": "P17. AVERAGE HOUSEHOLD SIZE BY AGE"
+            },
+            {
+                "code": "P17A",
+                "description": "P17A. AVERAGE HOUSEHOLD SIZE BY AGE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17B",
+                "description": "P17B. AVERAGE HOUSEHOLD SIZE BY AGE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17C",
+                "description": "P17C. AVERAGE HOUSEHOLD SIZE BY AGE  (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17D",
+                "description": "P17D. AVERAGE HOUSEHOLD SIZE BY AGE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17E",
+                "description": "P17E. AVERAGE HOUSEHOLD SIZE BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17F",
+                "description": "P17F. AVERAGE HOUSEHOLD SIZE BY AGE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P17G",
+                "description": "P17G. AVERAGE HOUSEHOLD SIZE BY AGE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P17H",
+                "description": "P17H. AVERAGE HOUSEHOLD SIZE BY AGE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P17I",
+                "description": "P17I. AVERAGE HOUSEHOLD SIZE BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P18",
+                "description": "P18. HOUSEHOLD TYPE"
+            },
+            {
+                "code": "P18A",
+                "description": "P18A. HOUSEHOLD TYPE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18B",
+                "description": "P18B. HOUSEHOLD TYPE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18C",
+                "description": "P18C. HOUSEHOLD TYPE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18D",
+                "description": "P18D. HOUSEHOLD TYPE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18E",
+                "description": "P18E. HOUSEHOLD TYPE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18F",
+                "description": "P18F. HOUSEHOLD TYPE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P18G",
+                "description": "P18G. HOUSEHOLD TYPE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P18H",
+                "description": "P18H. HOUSEHOLD TYPE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P18I",
+                "description": "P18I. HOUSEHOLD TYPE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P19",
+                "description": "P19. HOUSEHOLD SIZE BY HOUSEHOLD TYPE BY PRESENCE OF OWN CHILDREN"
+            },
+            {
+                "code": "P20",
+                "description": "P20. HOUSEHOLDS BY PRESENCE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE BY AGE OF PEOPLE UNDER 18 YEARS"
+            },
+            {
+                "code": "P21",
+                "description": "P21. HOUSEHOLDS BY AGE OF HOUSEHOLDER BY HOUSEHOLD TYPE BY PRESENCE OF RELATED CHILDREN"
+            },
+            {
+                "code": "P22",
+                "description": "P22. HOUSEHOLD TYPE BY AGE OF HOUSEHOLDER"
+            },
+            {
+                "code": "P23",
+                "description": "P23. HOUSEHOLDS BY PRESENCE OF PEOPLE 60 YEARS AND OVER BY HOUSEHOLD TYPE"
+            },
+            {
+                "code": "P24",
+                "description": "P24. HOUSEHOLDS BY PRESENCE OF PEOPLE 60 YEARS AND OVER, HOUSEHOLD SIZE, AND HOUSEHOLD TYPE"
+            },
+            {
+                "code": "P25",
+                "description": "P25. HOUSEHOLDS BY PRESENCE OF PEOPLE 65 YEARS AND OVER, HOUSEHOLD SIZE, AND HOUSEHOLD TYPE"
+            },
+            {
+                "code": "P26",
+                "description": "P26. HOUSEHOLDS BY PRESENCE OF PEOPLE 75 YEARS AND OVER, HOUSEHOLD SIZE, AND HOUSEHOLD TYPE"
+            },
+            {
+                "code": "P27",
+                "description": "P27. HOUSEHOLDS BY PRESENCE OF NONRELATIVES"
+            },
+            {
+                "code": "P28",
+                "description": "P28. HOUSEHOLD TYPE BY HOUSEHOLD SIZE"
+            },
+            {
+                "code": "P28A",
+                "description": "P28A. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28B",
+                "description": "P28B. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28C",
+                "description": "P28C. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28D",
+                "description": "P28D. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28E",
+                "description": "P28E. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28F",
+                "description": "P28F. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P28G",
+                "description": "P28G. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P28H",
+                "description": "P28H. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P28I",
+                "description": "P28I. HOUSEHOLD TYPE BY HOUSEHOLD SIZE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P29",
+                "description": "P29. HOUSEHOLD TYPE BY RELATIONSHIP"
+            },
+            {
+                "code": "P29A",
+                "description": "P29A. HOUSEHOLD TYPE BY RELATIONSHIP (WHITE ALONE)"
+            },
+            {
+                "code": "P29B",
+                "description": "P29B. HOUSEHOLD TYPE BY RELATIONSHIP (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "P29C",
+                "description": "P29C. HOUSEHOLD TYPE BY RELATIONSHIP (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "P29D",
+                "description": "P29D. HOUSEHOLD TYPE BY RELATIONSHIP (ASIAN ALONE)"
+            },
+            {
+                "code": "P29E",
+                "description": "P29E. HOUSEHOLD TYPE BY RELATIONSHIP (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "P29F",
+                "description": "P29F. HOUSEHOLD TYPE BY RELATIONSHIP (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "P29G",
+                "description": "P29G. HOUSEHOLD TYPE BY RELATIONSHIP (TWO OR MORE RACES)"
+            },
+            {
+                "code": "P29H",
+                "description": "P29H. HOUSEHOLD TYPE BY RELATIONSHIP (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P29I",
+                "description": "P29I. HOUSEHOLD TYPE BY RELATIONSHIP (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P30",
+                "description": "P30. HOUSEHOLD TYPE FOR THE POPULATION IN HOUSEHOLDS"
+            },
+            {
+                "code": "P31",
+                "description": "P31. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS"
+            },
+            {
+                "code": "P31A",
+                "description": "P31A. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (WHITE ALONE)"
+            },
+            {
+                "code": "P31B",
+                "description": "P31B. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "P31C",
+                "description": "P31C. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "P31D",
+                "description": "P31D. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (ASIAN ALONE)"
+            },
+            {
+                "code": "P31E",
+                "description": "P31E. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "P31F",
+                "description": "P31F. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "P31G",
+                "description": "P31G. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (TWO OR MORE RACES)"
+            },
+            {
+                "code": "P31H",
+                "description": "P31H. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P31I",
+                "description": "P31I. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION UNDER 18 YEARS (WHITE ALONE, NOT  HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P32",
+                "description": "P32. HOUSEHOLD TYPE BY RELATIONSHIP BY AGE FOR THE POPULATION UNDER 18 YEARS"
+            },
+            {
+                "code": "P33",
+                "description": "P33. HOUSEHOLD TYPE FOR THE POPULATION UNDER 18 YEARS IN HOUSEHOLDS (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS)"
+            },
+            {
+                "code": "P34",
+                "description": "P34. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER"
+            },
+            {
+                "code": "P34A",
+                "description": "P34A. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (WHITE ALONE)"
+            },
+            {
+                "code": "P34B",
+                "description": "P34B. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "P34C",
+                "description": "P34C. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "P34D",
+                "description": "P34D. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (ASIAN ALONE)"
+            },
+            {
+                "code": "P34E",
+                "description": "P34E. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "P34F",
+                "description": "P34F. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "P34G",
+                "description": "P34G. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (TWO OR MORE RACES)"
+            },
+            {
+                "code": "P34H",
+                "description": "P34H. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P34I",
+                "description": "P34I. HOUSEHOLD TYPE BY RELATIONSHIP FOR THE POPULATION 65 YEARS AND OVER (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "P35",
+                "description": "P35. FAMILIES"
+            },
+            {
+                "code": "P35A",
+                "description": "P35A. FAMILIES (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35B",
+                "description": "P35B. FAMILIES (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35C",
+                "description": "P35C. FAMILIES (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35D",
+                "description": "P35D. FAMILIES (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35E",
+                "description": "P35E. FAMILIES (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35F",
+                "description": "P35F. FAMILIES (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P35G",
+                "description": "P35G. FAMILIES (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P35H",
+                "description": "P35H. FAMILIES (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P35I",
+                "description": "P35I. FAMILIES (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P36",
+                "description": "P36. POPULATION IN FAMILIES BY AGE"
+            },
+            {
+                "code": "P36A",
+                "description": "P36A. POPULATION IN FAMILIES BY AGE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36B",
+                "description": "P36B. POPULATION IN FAMILIES BY AGE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36C",
+                "description": "P36C. POPULATION IN FAMILIES BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36D",
+                "description": "P36D. POPULATION IN FAMILIES BY AGE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36E",
+                "description": "P36E. POPULATION IN FAMILIES BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36F",
+                "description": "P36F. POPULATION IN FAMILIES BY AGE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P36G",
+                "description": "P36G. POPULATION IN FAMILIES BY AGE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P36H",
+                "description": "P36H. POPULATION IN FAMILIES BY AGE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P36I",
+                "description": "P36I. POPULATION IN FAMILIES BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P37",
+                "description": "P37. AVERAGE FAMILY SIZE BY AGE"
+            },
+            {
+                "code": "P37A",
+                "description": "P37A. AVERAGE FAMILY SIZE BY AGE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37B",
+                "description": "P37B. AVERAGE FAMILY SIZE BY AGE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37C",
+                "description": "P37C. AVERAGE FAMILY SIZE BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37D",
+                "description": "P37D. AVERAGE FAMILY SIZE BY AGE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37E",
+                "description": "P37E. AVERAGE FAMILY SIZE BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37F",
+                "description": "P37F. AVERAGE FAMILY SIZE BY AGE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P37G",
+                "description": "P37G. AVERAGE FAMILY SIZE BY AGE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P37H",
+                "description": "P37H. AVERAGE FAMILY SIZE BY AGE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P37I",
+                "description": "P37I. AVERAGE FAMILY SIZE BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P38",
+                "description": "P38. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN"
+            },
+            {
+                "code": "P38A",
+                "description": "P38A. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38B",
+                "description": "P38B. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38C",
+                "description": "P38C. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38D",
+                "description": "P38D. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38E",
+                "description": "P38E. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38F",
+                "description": "P38F. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (SOME OTHER RACE  ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P38G",
+                "description": "P38G. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P38H",
+                "description": "P38H. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P38I",
+                "description": "P38I. FAMILY TYPE BY PRESENCE AND AGE OF OWN CHILDREN (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P39",
+                "description": "P39. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN"
+            },
+            {
+                "code": "P39A",
+                "description": "P39A. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39B",
+                "description": "P39B. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39C",
+                "description": "P39C. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39D",
+                "description": "P39D. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39E",
+                "description": "P39E. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39F",
+                "description": "P39F. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "P39G",
+                "description": "P39G. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "P39H",
+                "description": "P39H. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P39I",
+                "description": "P39I. FAMILY TYPE BY PRESENCE AND AGE OF RELATED CHILDREN (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "P40",
+                "description": "P40. FAMILY TYPE AND AGE FOR OWN CHILDREN UNDER 18 YEARS"
+            },
+            {
+                "code": "P41",
+                "description": "P41. AGE OF GRANDCHILDREN UNDER 18 YEARS LIVING WITH A GRANDPARENT HOUSEHOLDER"
+            },
+            {
+                "code": "P42",
+                "description": "P42. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE"
+            },
+            {
+                "code": "P43",
+                "description": "P43. GROUP QUARTERS POPULATION BY SEX BY AGE BY GROUP QUARTERS TYPE"
+            },
+            {
+                "code": "P44",
+                "description": "P44. POPULATION SUBSTITUTED"
+            },
+            {
+                "code": "P45",
+                "description": "P45. ALLOCATION OF POPULATION ITEMS"
+            },
+            {
+                "code": "P46",
+                "description": "P46. ALLOCATION OF RACE"
+            },
+            {
+                "code": "P47",
+                "description": "P47. ALLOCATION OF HISPANIC OR LATINO ORIGIN"
+            },
+            {
+                "code": "P48",
+                "description": "P48. ALLOCATION OF SEX"
+            },
+            {
+                "code": "P49",
+                "description": "P49. ALLOCATION OF AGE"
+            },
+            {
+                "code": "P50",
+                "description": "P50. ALLOCATION OF RELATIONSHIP"
+            },
+            {
+                "code": "P51",
+                "description": "P51. ALLOCATION OF POPULATION ITEMS FOR THE POPULATION IN GROUP QUARTERS"
+            },
+            {
+                "code": "PCO1",
+                "description": "PCO1. GROUP QUARTERS POPULATION BY SEX BY AGE"
+            },
+            {
+                "code": "PCO2",
+                "description": "PCO2. GROUP QUARTERS POPULATION IN INSTITUTIONAL FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCO3",
+                "description": "PCO3. GROUP QUARTERS POPULATION IN CORRECTIONAL FACILITIES FOR ADULTS BY SEX BY AGE"
+            },
+            {
+                "code": "PCO4",
+                "description": "PCO4. GROUP QUARTERS POPULATION IN JUVENILE FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCO5",
+                "description": "PCO5. GROUP QUARTERS POPULATION IN NURSING FACILITIES/SKILLED-NURSING FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCO6",
+                "description": "PCO6. GROUP QUARTERS POPULATION IN OTHER INSTITUTIONAL FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCO7",
+                "description": "PCO7. GROUP QUARTERS POPULATION IN NONINSTITUTIONAL FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCO8",
+                "description": "PCO8. GROUP QUARTERS POPULATION IN COLLEGE/UNIVERSITY STUDENT HOUSING BY SEX BY AGE"
+            },
+            {
+                "code": "PCO9",
+                "description": "PCO9. GROUP QUARTERS POPULATION IN MILITARY QUARTERS BY SEX BY AGE"
+            },
+            {
+                "code": "PCO10",
+                "description": "PCO10. GROUP QUARTERS POPULATION IN OTHER NONINSTITUTIONAL FACILITIES BY SEX BY AGE"
+            },
+            {
+                "code": "PCT1",
+                "description": "PCT1. AMERICAN INDIAN AND ALASKA NATIVE ALONE WITH ONE TRIBE REPORTED FOR SELECTED TRIBES"
+            },
+            {
+                "code": "PCT2",
+                "description": "PCT2. AMERICAN INDIAN AND ALASKA NATIVE ALONE WITH ONE OR MORE TRIBES REPORTED FOR SELECTED TRIBES"
+            },
+            {
+                "code": "PCT3",
+                "description": "PCT3. AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION WITH ONE OR MORE OTHER RACES AND WITH ONE OR MORE TRIBES REPORTED FOR SELECTED TRIBES"
+            },
+            {
+                "code": "PCT4",
+                "description": "PCT4. AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION WITH ONE OR MORE OTHER RACES"
+            },
+            {
+                "code": "PCT5",
+                "description": "PCT5. ASIAN ALONE WITH ONE ASIAN CATEGORY FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT6",
+                "description": "PCT6. ASIAN ALONE WITH ONE OR MORE ASIAN CATEGORIES FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT7",
+                "description": "PCT7. ASIAN ALONE OR IN COMBINATION WITH ONE OR MORE OTHER RACES, AND WITH ONE OR MORE ASIAN CATEGORIES FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT8",
+                "description": "PCT8. NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE WITH ONE NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER CATEGORY FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT9",
+                "description": "PCT9. NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE WITH ONE OR MORE NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER CATEGORIES FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT10",
+                "description": "PCT10. NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE OR IN COMBINATION WITH ONE OR MORE RACES, AND WITH ONE OR MORE NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER CATEGORIES FOR SELECTED GROUPS"
+            },
+            {
+                "code": "PCT11",
+                "description": "PCT11. HISPANIC OR LATINO BY SPECIFIC ORIGIN"
+            },
+            {
+                "code": "PCT12",
+                "description": "PCT12. SEX BY AGE"
+            },
+            {
+                "code": "PCT12A",
+                "description": "PCT12A. SEX BY AGE (WHITE ALONE)"
+            },
+            {
+                "code": "PCT12B",
+                "description": "PCT12B. SEX BY AGE (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "PCT12C",
+                "description": "PCT12C. SEX BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "PCT12D",
+                "description": "PCT12D. SEX BY AGE (ASIAN ALONE)"
+            },
+            {
+                "code": "PCT12E",
+                "description": "PCT12E. SEX BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "PCT12F",
+                "description": "PCT12F. SEX BY AGE (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "PCT12G",
+                "description": "PCT12G. SEX BY AGE (TWO OR MORE RACES)"
+            },
+            {
+                "code": "PCT12H",
+                "description": "PCT12H. SEX BY AGE (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12I",
+                "description": "PCT12I. SEX BY AGE (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12J",
+                "description": "PCT12J. SEX BY AGE (BLACK OR AFRICAN AMERICAN ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12K",
+                "description": "PCT12K. SEX BY AGE (AMERICAN INDIAN AND ALASKA NATIVE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12L",
+                "description": "PCT12L. SEX BY AGE (ASIAN ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12M",
+                "description": "PCT12M. SEX BY AGE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12N",
+                "description": "PCT12N. SEX BY AGE (SOME OTHER RACE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT12O",
+                "description": "PCT12O. SEX BY AGE (TWO OR MORE RACES, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT13",
+                "description": "PCT13. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS"
+            },
+            {
+                "code": "PCT13A",
+                "description": "PCT13A. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (WHITE ALONE)"
+            },
+            {
+                "code": "PCT13B",
+                "description": "PCT13B. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "PCT13C",
+                "description": "PCT13C. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "PCT13D",
+                "description": "PCT13D. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (ASIAN ALONE)"
+            },
+            {
+                "code": "PCT13E",
+                "description": "PCT13E. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "PCT13F",
+                "description": "PCT13F. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "PCT13G",
+                "description": "PCT13G. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (TWO OR MORE RACES)"
+            },
+            {
+                "code": "PCT13H",
+                "description": "PCT13H. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT13I",
+                "description": "PCT13I. SEX BY AGE FOR THE POPULATION IN HOUSEHOLDS (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT14",
+                "description": "PCT14. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS"
+            },
+            {
+                "code": "PCT14A",
+                "description": "PCT14A. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14B",
+                "description": "PCT14B. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14C",
+                "description": "PCT14C. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14D",
+                "description": "PCT14D. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14E",
+                "description": "PCT14E. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER  ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14F",
+                "description": "PCT14F. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14G",
+                "description": "PCT14G. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14H",
+                "description": "PCT14H. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT14I",
+                "description": "PCT14I. PRESENCE OF MULTIGENERATIONAL HOUSEHOLDS (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "PCT15",
+                "description": "PCT15. HUSBAND-WIFE AND UNMARRIED-PARTNER HOUSEHOLDS BY SEX OF PARTNER BY PRESENCE OF RELATED AND OWN CHILDREN UNDER 18 YEARS"
+            },
+            {
+                "code": "PCT16",
+                "description": "PCT16. HOUSEHOLD TYPE BY NUMBER OF PEOPLE UNDER 18 YEARS (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS)"
+            },
+            {
+                "code": "PCT17",
+                "description": "PCT17. PRESENCE OF UNMARRIED PARTNER OF HOUSEHOLDER BY HOUSEHOLD TYPE FOR THE POPULATION UNDER 18 YEARS IN HOUSEHOLDS (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS)"
+            },
+            {
+                "code": "PCT18",
+                "description": "PCT18. NONFAMILY HOUSEHOLDS BY SEX OF HOUSEHOLDER BY LIVING ALONE BY AGE OF HOUSEHOLDER"
+            },
+            {
+                "code": "PCT19",
+                "description": "PCT19. NONRELATIVES BY HOUSEHOLD TYPE"
+            },
+            {
+                "code": "PCT19A",
+                "description": "PCT19A. NONRELATIVES BY HOUSEHOLD TYPE (WHITE ALONE)"
+            },
+            {
+                "code": "PCT19B",
+                "description": "PCT19B. NONRELATIVES BY HOUSEHOLD TYPE (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "PCT19C",
+                "description": "PCT19C. NONRELATIVES BY HOUSEHOLD TYPE (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "PCT19D",
+                "description": "PCT19D. NONRELATIVES BY HOUSEHOLD TYPE (ASIAN ALONE)"
+            },
+            {
+                "code": "PCT19E",
+                "description": "PCT19E. NONRELATIVES BY HOUSEHOLD TYPE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "PCT19F",
+                "description": "PCT19F. NONRELATIVES BY HOUSEHOLD TYPE (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "PCT19G",
+                "description": "PCT19G. NONRELATIVES BY HOUSEHOLD TYPE (TWO OR MORE RACES)"
+            },
+            {
+                "code": "PCT19H",
+                "description": "PCT19H. NONRELATIVES BY HOUSEHOLD TYPE (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT19I",
+                "description": "PCT19I. NONRELATIVES BY HOUSEHOLD TYPE (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT20",
+                "description": "PCT20. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE"
+            },
+            {
+                "code": "PCT20A",
+                "description": "PCT20A. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (WHITE ALONE)"
+            },
+            {
+                "code": "PCT20B",
+                "description": "PCT20B. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "PCT20C",
+                "description": "PCT20C. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "PCT20D",
+                "description": "PCT20D. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (ASIAN ALONE)"
+            },
+            {
+                "code": "PCT20E",
+                "description": "PCT20E. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE  (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "PCT20F",
+                "description": "PCT20F. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "PCT20G",
+                "description": "PCT20G. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (TWO OR MORE RACES)"
+            },
+            {
+                "code": "PCT20H",
+                "description": "PCT20H. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (HISPANIC OR LATINO ALONE)"
+            },
+            {
+                "code": "PCT20I",
+                "description": "PCT20I. GROUP QUARTERS POPULATION BY GROUP QUARTERS TYPE (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT21",
+                "description": "PCT21. GROUP QUARTERS POPULATION BY SEX BY AGE BY GROUP QUARTERS TYPE"
+            },
+            {
+                "code": "PCT22",
+                "description": "PCT22. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER"
+            },
+            {
+                "code": "PCT22A",
+                "description": "PCT22A. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (WHITE ALONE)"
+            },
+            {
+                "code": "PCT22B",
+                "description": "PCT22B. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (BLACK OR AFRICAN AMERICAN ALONE)"
+            },
+            {
+                "code": "PCT22C",
+                "description": "PCT22C. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (AMERICAN INDIAN AND ALASKA NATIVE ALONE)"
+            },
+            {
+                "code": "PCT22D",
+                "description": "PCT22D. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (ASIAN ALONE)"
+            },
+            {
+                "code": "PCT22E",
+                "description": "PCT22E. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE)"
+            },
+            {
+                "code": "PCT22F",
+                "description": "PCT22F. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (SOME OTHER RACE ALONE)"
+            },
+            {
+                "code": "PCT22G",
+                "description": "PCT22G. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (TWO OR MORE RACES)"
+            },
+            {
+                "code": "PCT22H",
+                "description": "PCT22H. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (HISPANIC OR LATINO)"
+            },
+            {
+                "code": "PCT22I",
+                "description": "PCT22I. GROUP QUARTERS POPULATION BY SEX  BY GROUP QUARTERS TYPE FOR THE POPULATION 18 YEARS AND OVER (WHITE ALONE, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "H1",
+                "description": "H1. HOUSING UNITS"
+            },
+            {
+                "code": "H2",
+                "description": "H2. URBAN AND RURAL"
+            },
+            {
+                "code": "H3",
+                "description": "H3. OCCUPANCY STATUS"
+            },
+            {
+                "code": "H4",
+                "description": "H4. TENURE"
+            },
+            {
+                "code": "H5",
+                "description": "H5. VACANCY STATUS"
+            },
+            {
+                "code": "H6",
+                "description": "H6. RACE OF HOUSEHOLDER"
+            },
+            {
+                "code": "H7",
+                "description": "H7. HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER"
+            },
+            {
+                "code": "H8",
+                "description": "H8. TOTAL RACES TALLIED FOR HOUSEHOLDERS"
+            },
+            {
+                "code": "H9",
+                "description": "H9. HISPANIC OR LATINO ORIGIN OF HOUSEHOLDERS BY TOTAL RACES TALLIED"
+            },
+            {
+                "code": "H10",
+                "description": "H10. TOTAL POPULATION IN OCCUPIED HOUSING UNITS"
+            },
+            {
+                "code": "H11",
+                "description": "H11. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE"
+            },
+            {
+                "code": "H11A",
+                "description": "H11A. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H11B",
+                "description": "H11B. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER) "
+            },
+            {
+                "code": "H11C",
+                "description": "H11C. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H11D",
+                "description": "H11D. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H11E",
+                "description": "H11E. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H11F",
+                "description": "H11F. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H11G",
+                "description": "H11G. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "H11H",
+                "description": "H11H. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H11I",
+                "description": "H11I. TOTAL POPULATION IN OCCUPIED HOUSING UNITS BY TENURE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H12",
+                "description": "H12. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE"
+            },
+            {
+                "code": "H12A",
+                "description": "H12A. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12B",
+                "description": "H12B. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12C",
+                "description": "H12C. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12D",
+                "description": "H12D. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12E",
+                "description": "H12E. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12F",
+                "description": "H12F. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H12G",
+                "description": "H12G. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "H12H",
+                "description": "H12H. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H12I",
+                "description": "H12I. AVERAGE HOUSEHOLD SIZE OF OCCUPIED HOUSING UNITS BY TENURE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H13",
+                "description": "H13. HOUSEHOLD SIZE"
+            },
+            {
+                "code": "H14",
+                "description": "H14. TENURE BY RACE OF HOUSEHOLDER"
+            },
+            {
+                "code": "H15",
+                "description": "H15. TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER"
+            },
+            {
+                "code": "H16",
+                "description": "H16. TENURE BY HOUSEHOLD SIZE"
+            },
+            {
+                "code": "H16A",
+                "description": "H16A. TENURE BY HOUSEHOLD SIZE (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16B",
+                "description": "H16B. TENURE BY HOUSEHOLD SIZE (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16C",
+                "description": "H16C. TENURE BY HOUSEHOLD SIZE (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16D",
+                "description": "H16D. TENURE BY HOUSEHOLD SIZE (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16E",
+                "description": "H16E. TENURE BY HOUSEHOLD SIZE (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16F",
+                "description": "H16F. TENURE BY HOUSEHOLD SIZE (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H16G",
+                "description": "H16G. TENURE BY HOUSEHOLD SIZE (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "H16H",
+                "description": "H16H. TENURE BY HOUSEHOLD SIZE (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H16I",
+                "description": "H16I. TENURE BY HOUSEHOLD SIZE (WHITE ALONE, NOT HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H17",
+                "description": "H17. TENURE BY AGE OF HOUSEHOLDER"
+            },
+            {
+                "code": "H17A",
+                "description": "H17A. TENURE BY AGE OF HOUSEHOLDER (WHITE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17B",
+                "description": "H17B. TENURE BY AGE OF HOUSEHOLDER (BLACK OR AFRICAN AMERICAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17C",
+                "description": "H17C. TENURE BY AGE OF HOUSEHOLDER (AMERICAN INDIAN AND ALASKA NATIVE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17D",
+                "description": "H17D. TENURE BY AGE OF HOUSEHOLDER (ASIAN ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17E",
+                "description": "H17E. TENURE BY AGE OF HOUSEHOLDER (NATIVE HAWAIIAN AND OTHER PACIFIC ISLANDER ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17F",
+                "description": "H17F. TENURE BY AGE OF HOUSEHOLDER (SOME OTHER RACE ALONE HOUSEHOLDER)"
+            },
+            {
+                "code": "H17G",
+                "description": "H17G. TENURE BY AGE OF HOUSEHOLDER (TWO OR MORE RACES HOUSEHOLDER)"
+            },
+            {
+                "code": "H17H",
+                "description": "H17H. TENURE BY AGE OF HOUSEHOLDER (HISPANIC OR LATINO HOUSEHOLDER)"
+            },
+            {
+                "code": "H17I",
+                "description": "H17I. TENURE BY AGE OF HOUSEHOLDER (WHITE ALONE HOUSEHOLDER, NOT HISPANIC OR LATINO)"
+            },
+            {
+                "code": "H18",
+                "description": "H18. TENURE BY HOUSEHOLD TYPE BY AGE OF HOUSEHOLDER"
+            },
+            {
+                "code": "H19",
+                "description": "H19. TENURE BY PRESENCE OF PEOPLE UNDER 18 YEARS  (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS)"
+            },
+            {
+                "code": "H20",
+                "description": "H20. OCCUPIED HOUSING UNITS SUBSTITUTED"
+            },
+            {
+                "code": "H21",
+                "description": "H21. ALLOCATION OF VACANCY STATUS"
+            },
+            {
+                "code": "H22",
+                "description": "H22. ALLOCATION OF TENURE"
+            },
+            {
+                "code": "HCT1",
+                "description": "HCT1. TENURE BY HISPANIC OR LATINO ORIGIN OF HOUSEHOLDER BY RACE OF HOUSEHOLDER"
+            },
+            {
+                "code": "HCT2",
+                "description": "HCT2. TENURE BY PRESENCE AND AGE OF OWN CHILDREN"
+            },
+            {
+                "code": "HCT3",
+                "description": "HCT3. TENURE BY PRESENCE AND AGE OF RELATED CHILDREN"
+            },
+            {
+                "code": "HCT4",
+                "description": "HCT4. TENURE BY PRESENCE AND AGE OF PEOPLE UNDER 18 YEARS BY HOUSEHOLD TYPE  (EXCLUDING HOUSEHOLDERS, SPOUSES, AND UNMARRIED PARTNERS)"
+            }
+        ]
+    }
+}
+
