@@ -19,12 +19,20 @@ module CensusData
     data = { :filename => File.basename(uri.path), :data => nil }
     Net::HTTP.start(uri.host) do |http|
       resp = http.request_get(uri.path)
-      data[:data] = resp.body
+      if resp.header[ 'Content-Encoding' ].eql?( 'gzip' ) then
+        sio = StringIO.new( resp.body )
+        gz = Zlib::GzipReader.new( sio )
+        data[:data] = gz.read
+      else
+        data[:data] = resp.body
+      end
     end
     data
   end
 
   def CensusData.write_data_file(path, data = {})
+    raise Exception.new("filename cannot be null") unless data[:filename]
+    data[:data] = nil unless data[:data]
     begin
       file = File.open(File.join(path, data[:filename]), 'w+')
       file.write(data[:data])

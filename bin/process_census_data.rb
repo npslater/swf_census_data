@@ -1,53 +1,25 @@
 require 'net/http'
 require 'json'
+require_relative '../lib/census_data'
 
 class ProcessCensusData
 
-  attr_accessor :download_dir, :census_data_url, :census_data_config
+  attr_accessor :download_dir, :census_data_url, :census_data_config, :download_limit
 
-  def initialize(download_dir, census_data_url, census_data_config)
+  def initialize(download_dir, census_data_url, census_data_config, download_limit)
     @download_dir = download_dir
     @census_data_url = census_data_url
     @census_data_config = census_data_config
+    @download_limit = download_limit
   end
 
   def process
-
-    raise Exception.new('Not implemented yet')
-
+  urls = @download_limit != nil ? CensusData.create_urls(@census_data_url, @census_data_config)[0..(@download_limit-1)] : CensusData.create_urls(@census_data_url, @census_data_config)
+  urls.each do | url |
+    data = CensusData.fetch_data(url)
+    CensusData.write_data_file(@download_dir, data)
   end
 
-  def parse_census_data_config
-    JSON.parse(File.read(@census_data_config))
-  end
-
-  def create_urls()
-    urls = []
-    data_config = parse_census_data_config
-    data_config['data']['states'].each do |state|
-      data_config['data']['tables'].each do |table|
-        url = @census_data_url.gsub('SS', state['fips']).gsub('TT', table['code']).gsub('LLL', data_config['data']['summaryCode']['code'])
-        urls << url
-      end
-    end
-    urls
-  end
-
-  def fetch_data(url)
-    uri = URI.parse(url)
-    Net::HTTP.start(uri.host) do |http|
-      resp = http.request_get(uri.path)
-      resp.body
-    end
-  end
-
-  def write_data_file(path, data)
-    begin
-      file = File.open(path, 'w+')
-      file.write(data)
-    ensure
-      file.close unless file == nil
-    end
   end
 
 end
