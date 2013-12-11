@@ -106,5 +106,35 @@ describe 'Census data workflow' do
         process.process()
     end
   end
+
+  describe CensusData do
+
+    let!(:census_data_config) { File.join(File.dirname(__FILE__), '../conf/census_data.json')}
+    let(:url) {'http://censusdata.ire.org/01/all_160_in_01.P1.csv'}
+
+    it 'should return an array of urls when create_urls is called' do
+
+      urls = CensusData.create_urls(config['census_data_url'], census_data_config)
+      urls.count.should be > 0
+
+    end
+
+    it 'should return a hash when fetch_data is called' do
+
+      data = CensusData.fetch_data(url)
+      data.should_not be nil
+      data.should be_an_instance_of(Hash)
+
+    end
+
+    it 'should write a file when write_data_file is called' do
+
+      data = { :filename => 'test.csv', :data => "Sample data written at #{Time.now.strftime('%d/%m/%Y %H:%M')}\n" }
+      CensusData.write_data_file(config['download_dir'], data)
+
+    end
+
+  end
+
 end
 
