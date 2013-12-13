@@ -34,8 +34,10 @@ module CensusData
     raise Exception.new("filename cannot be null") unless data[:filename]
     data[:data] = nil unless data[:data]
     begin
-      file = File.open(File.join(path, data[:filename]), 'w+')
+      full_path = File.join(path, data[:filename])
+      file = File.open(full_path, 'w+')
       file.write(data[:data])
+      full_path
     ensure
       file.close unless file == nil
     end

@@ -1,2 +1,18 @@
 census_data_url: http://censusdata.ire.org/SS/all_LLL_in_SS.TT.csv
 download_dir: /users/nslater/data/census
+s3_bucket: swf-census-data
+activities:
+  download_data_file:
+    version: 1.0.0
+    start_timeout: 30
+    close_timeout: 30
+  write_file_to_disk:
+    version: 1.0.0
+    start_timeout: 30
+    close_timeout: 30
+  copy_file_to_s3:
+    version: 1.0.0
+    start_timeout: 30
+    close_timeout: 30
+
+
