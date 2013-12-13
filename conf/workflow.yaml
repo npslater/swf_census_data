@@ -1,6 +1,8 @@
 census_data_url: http://censusdata.ire.org/SS/all_LLL_in_SS.TT.csv
 download_dir: /users/nslater/data/census
 s3_bucket: swf-census-data
+task_list: swf-census-data
+domain: swf-census-data
 activities:
   download_data_file:
     version: 1.0.0

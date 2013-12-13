@@ -5,7 +5,7 @@ module DomainHelper
   @@swf = AWS::SimpleWorkflow.new
   @@domain = nil
 
-  def DomainHelper.init_domain(domain_name)
+  def init_domain(domain_name)
 
     begin
       @@domain = @@swf.domains[domain_name]
@@ -15,11 +15,11 @@ module DomainHelper
     end
   end
 
-  def DomainHelper.swf
+  def swf
     @@swf
   end
 
-  def DomainHelper.domain
+  def domain
     raise 'Domain has not been initialized' unless @@domain
     @@domain
   end

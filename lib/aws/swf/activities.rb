@@ -1,6 +1,6 @@
 require 'aws/decider'
 require_relative '../../census_data'
-require 'domain_helper'
+require_relative 'domain_helper'
 
 class Activities
   extend AWS::Flow::Activities
@@ -79,7 +79,20 @@ class Activities
 
   end
 
+  def Activities.start(config)
+    fork do
+      puts "Starting Activities"
+      Activities.download_dir  = config['download_dir']
+      Activities.s3_bucket = config['s3_bucket']
+      Activities.options = config['activities']
+      Activities.init_activities
+      Activities.init_domain(config['domain'])
+      activity_worker = AWS::Flow::ActivityWorker.new(Activities.swf.client, Activities.domain, config['task_list'], Activities)
+      activity_worker.start
+    end
+  end
 
-
+  config = YAML.load(File.read(ARGV[0]))
+  Activities.start(config)
 
 end
