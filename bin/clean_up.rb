@@ -41,7 +41,7 @@ class CleanUp
   end
 
   def clean_up_s3
-    s3 = AWS::S3.new
+    s3 = AWS::S3.new(:access_key_id => ENV['AWS_ACCESS_KEY_ID'], :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'])
     bucket = s3.buckets[config['s3_bucket']]
     return unless bucket.exists?
     bucket.objects.each do | object |

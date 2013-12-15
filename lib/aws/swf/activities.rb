@@ -62,7 +62,7 @@ class Activities
 
   def copy_file_to_s3(path)
     puts "copy_file_to_s3: #{path}"
-    s3 = AWS::S3::new()
+    s3 = AWS::S3::new(:access_key_id => ENV['AWS_ACCESS_KEY_ID'], :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'])
     s3.buckets[Activities.s3_bucket].objects[File.basename(path)].write(:file => path)
 
   end
