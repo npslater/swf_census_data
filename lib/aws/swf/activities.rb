@@ -81,7 +81,6 @@ class Activities
 
   def Activities.start(config)
     fork do
-      puts "Starting Activities"
       Activities.download_dir  = config['download_dir']
       Activities.s3_bucket = config['s3_bucket']
       Activities.options = config['activities']
@@ -91,8 +90,5 @@ class Activities
       activity_worker.start
     end
   end
-
-  config = YAML.load(File.read(ARGV[0]))
-  Activities.start(config)
 
 end

@@ -4,13 +4,6 @@ describe Activities do
 
   let(:config) { YAML.load(File.read(File.join(File.dirname(__FILE__), '../conf/workflow.yaml'))) }
 
-  it 'should return a default set of options' do
-
-    Activities.options.should_not be_nil
-    Activities.options.should be_an_instance_of(Hash)
-
-  end
-
   it 'should have a getter and setter for the download_dir property' do
     Activities.download_dir = config['download_dir']
     Activities.download_dir.should_not be_nil
