@@ -1,6 +1,7 @@
 require 'optparse'
 require 'pp'
 require_relative '../lib/aws/swf/activities'
+require_relative '../lib/aws/swf/decider'
 
 class RunWorkflow
 
@@ -15,7 +16,7 @@ class RunWorkflow
     def parse_args(args)
       options = {}
       parser = OptionParser.new do |opts|
-        opts.banner = "Usage: run_worker.rb [options]"
+        opts.banner = "Usage: start_workflow.rb [options]"
         opts.separator ""
         opts.separator "Specific options:"
         opts.on('-w', '--worker WORKER',
@@ -57,12 +58,15 @@ class RunWorkflow
     def run
       load_config(@options[:config])
       if @options[:worker].eql?('activities')
-        fork do
           puts "Starting activity worker #{Activities}"
-          Activities.start(config)
-        end
+          fork do
+            Activities.start(config)
+          end
       elsif @options[:worker].eql?('decider')
-        raise 'Not implemented yet'
+        puts "Starting decider worker #{Decider}"
+        fork do
+          Decider.start(config)
+        end
       end
     end
 end

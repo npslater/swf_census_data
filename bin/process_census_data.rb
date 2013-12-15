@@ -14,7 +14,7 @@ class ProcessCensusData
   end
 
   def process
-  urls = @download_limit != nil ? CensusData.create_urls(@census_data_url, @census_data_config)[0..(@download_limit-1)] : CensusData.create_urls(@census_data_url, @census_data_config)
+    urls = @download_limit != nil ? CensusData.create_urls(@census_data_url, @census_data_config)[0..(@download_limit-1)] : CensusData.create_urls(@census_data_url, @census_data_config)
   urls.each do | url |
     data = CensusData.fetch_data(url)
     CensusData.write_data_file(@download_dir, data)
