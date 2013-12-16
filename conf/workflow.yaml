@@ -5,17 +5,17 @@ task_list: swf-census-data
 domain: swf-census-data
 activities:
   download_data_file:
-    version: 1.0.3
-    start_timeout: 30
-    close_timeout: 30
+    version: 1.0.4
+    start_timeout: 3600
+    close_timeout: 3600
     task_list: swf-census-data
   copy_file_to_s3:
-    version: 1.0.11
-    start_timeout: 30
-    close_timeout: 30
+    version: 1.0.12
+    start_timeout: 3600
+    close_timeout: 3600
     task_list: swf-census-data
 decider:
-  version: 1.0.3
-  timeout: 3600
+  version: 1.0.4
+  timeout: 86400
 
 
