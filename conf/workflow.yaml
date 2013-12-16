@@ -10,7 +10,7 @@ activities:
     close_timeout: 30
     task_list: swf-census-data
   copy_file_to_s3:
-    version: 1.0.5
+    version: 1.0.11
     start_timeout: 30
     close_timeout: 30
     task_list: swf-census-data
